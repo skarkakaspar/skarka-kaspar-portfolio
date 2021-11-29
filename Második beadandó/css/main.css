@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: darkturquoise;
+	width: 100%;
+}
+
+div#container{
+	background-color: grey;
+	width: 808px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+ul#menü{
+	list-style: none;
+
+}
+ul#menü li{
+	float: left;
+}
+ul#menü li div{
+	width: 180px;
+	text-align: center;
+	background-color: darkslateblue;
+	height: auto;
+	cursor: pointer;
+	padding: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+ul#menü li: first-child div{
+	border-left: 2px solid black;
+}
+ul#menü li div a{
+	color: white;
+	text-decoration: none;
+}
+ul#menü li div:hover{
+	background-color: darkblue;
+}
+ul#menü li div a:hover{
+	color: ghostwhite;
+}
+div#clear{
+	clear: both;
+}
+
+
+body{
+	font-size: 1rem;
+	display: grid;
+	grid-template-areas: "fejléc" 
+	"kontent"
+	"lábléc" ;
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 100vh;
+}
+
+
+
+/*footer{
+	grid-area: lábléc;
+}*/
+
+.főrész{
+	width: 60%;
+	margin-left: 20%;
+	display: inline-block;
+	text-align: center;
+}
+
+.főrész img{
+	
+	width:  20%;
+	height: auto;
+	display: block;
+	margin-left: 40%;
+	border: 2px solid black;
+	border-radius: 2px;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+
+	
+
+}
+
+
+
+.lábléc{
+	border: 2px solid black;
+}
